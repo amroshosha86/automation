@@ -1,0 +1,5 @@
+/opencart/test-output/
+/target/
+*.html
+*.xml
+/test-output/
