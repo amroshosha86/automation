@@ -35,7 +35,7 @@ public class TestBase {
 		//WebDriverManager.firefoxdriver().setup();
 		driver = new ChromeDriver(); 
 		//driver = new FirefoxDriver(); 
-		driver.get("https://demo.opencart.com/index.php?route=common/home");
+		driver.get("https://trytestingthis.netlify.app");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().timeouts().scriptTimeout(Duration.ofMinutes(2));
@@ -75,6 +75,7 @@ public class TestBase {
 	@AfterSuite
 	public void quitBrowser() {
 		driver.quit();
+
 	}
 
 }
