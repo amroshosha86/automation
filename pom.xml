@@ -6,12 +6,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>demo</groupId>
-	<artifactId>opencart</artifactId>
+	<artifactId>StepByStep</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>opencart</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
+
 
 
 
